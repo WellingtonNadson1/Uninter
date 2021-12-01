@@ -16,7 +16,7 @@ while True:
     # Verificar através das estruturas de seleção ou decisão 
     # utilizando a idade do filho(a), qual o nível de Ensino na qual ela se enquadra
     if (idade_filho >= 1 and idade_filho <= 5):
-        print('{} por ter {} ano(s), está matriculado(a) na Educação Infantil.\n'.format(nome_filho.title(), idade_filho))
+        print(f'{nome_filho.title()} por ter {idade_filho} ano(s), está matriculado(a) na Educação Infantil.\n')
 
     elif (idade_filho >= 6 and idade_filho <= 10):
         print('{} por ter {} anos, está matriculado(a) no \nEnsino Fundamental Anos Iniciais (Antigo Ensino Fundamental I).\n'.format(nome_filho.title(), idade_filho))
